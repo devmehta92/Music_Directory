@@ -1,0 +1,56 @@
+body{
+	background-color:#f0e68c;
+	height:100vh;
+	overflow:hidden;
+	font-family: "Lucida Console Unicode";
+}
+form{
+	height: 35px;
+}
+#output1{
+    height:48%;
+    width:100%;
+    float:left;
+	overflow: auto;
+	border-width: 0px 0px 2px 0px;
+	border-style: double;
+}
+.outer_div
+{
+	height: -moz-calc(100% - 35px);
+	height: -webkit-calc(100% - 35px);
+	height: -o-calc(100% - 35px);
+	height: calc(100% - 35px);
+}
+#output1 > img{
+	float: left;
+	padding: 10px;
+}
+#output2{
+    height:49%;
+    width:49%;
+    float:left;
+	overflow: auto;
+	border-width:0px 2px 0px 0px;
+	border-style: double;
+}
+#output3{
+    height:49%;
+    width:50%;
+    float:left;
+	overflow: auto;
+}
+.test_fig{
+	float: left;
+  margin: 10px;
+  width: 174px;
+  height: 210px;
+}
+.test_fig_img{
+	  width: 174px;
+}
+.test_fig_p{
+	  width: 174px;
+	  word-wrap: break-word;
+	  margin-top: 5px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>A Music Web Application</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="music.js"></script>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="initialize();">
+    <form onsubmit="sendRequest1();return false" >
+       <label>Artist name: <input type="text" id="form-input"/></label>
+       <input type="submit" onclick="sendRequest1();" value="Display Info"/>
+    </form>
+	<div class="outer_div">
+    <div id="output1">&nbsp;</div>
+	<div id="output2">&nbsp;</div>
+	<div id="output3">&nbsp;</div>
+	</div>
+  </body>
+</html>
